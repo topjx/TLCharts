@@ -30,7 +30,24 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'TLCharts/Classes/**/*'
+  # s.source_files = 'TLCharts/Classes/**/*'
+  
+  s.subspec 'Util' do |su|
+      su.ios.deployment_target = '8.0'
+      su.source_files = 'TLCharts/Classes/TLChartUtilities/**/*.{h,m}'
+  end
+  s.subspec 'Ring' do |ss|
+      ss.ios.deployment_target = '8.0'
+      ss.source_files = 'TLCharts/Classes/TLRingChart/**/*.{h,m}'
+      # ss.public_header_files = 'TLCharts/Classes/TLRingChart/TLRingChartView.h'
+      ss.dependency 'TLCharts/Util'
+  end
+  s.subspec 'Line' do |sss|
+      sss.ios.deployment_target = '8.0'
+      sss.source_files = 'TLCharts/Classes/TLLineChart/**/*.{h,m}'
+      # sss.public_header_files = 'TLCharts/Classes/TLLineChart/TLLineChartView.h'
+      sss.dependency 'TLCharts/Util'
+  end
   
   # s.resource_bundles = {
   #   'TLCharts' => ['TLCharts/Assets/*.png']

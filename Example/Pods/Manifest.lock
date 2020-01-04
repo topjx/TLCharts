@@ -1,5 +1,5 @@
 PODS:
-  - TLCharts (0.1.0)
+  - TLCharts (1.0.0)
 
 DEPENDENCIES:
   - TLCharts (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TLCharts: 8bebf831bb004a29970de6026256bde70792b787
+  TLCharts: 2bd9d9e3eecbcd31c4015e43d19cec2c14b26bbd
 
 PODFILE CHECKSUM: af9c4cb0a231f20717eaedb266dd5e6b721676b3
 
