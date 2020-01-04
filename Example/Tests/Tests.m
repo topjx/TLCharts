@@ -2,8 +2,8 @@
 //  TLChartsTests.m
 //  TLChartsTests
 //
-//  Created by lijunxi on 01/04/2020.
-//  Copyright (c) 2020 lijunxi. All rights reserved.
+//  Created by topjx on 01/04/2020.
+//  Copyright (c) 2020 topjx. All rights reserved.
 //
 
 @import XCTest;
