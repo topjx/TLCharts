@@ -63,9 +63,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A08599E6559432B5FB1019D0 /* Pods_TLCharts_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLCharts_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCC186CBA3AF395D37BCEF6C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		EC72CFCF6DFA63355BC46C53 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		ECE74EF0B1EC338AAE094458 /* TLCharts.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TLCharts.podspec; path = ../TLCharts.podspec; sourceTree = "<group>"; };
+		DCC186CBA3AF395D37BCEF6C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EC72CFCF6DFA63355BC46C53 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		ECE74EF0B1EC338AAE094458 /* TLCharts.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TLCharts.podspec; path = ../TLCharts.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F9A3F091F7F700BB8FA5FBCB /* Pods-TLCharts_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLCharts_Example.release.xcconfig"; path = "Target Support Files/Pods-TLCharts_Example/Pods-TLCharts_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				2602DB5F152ECED02BDC5859 /* Pods-TLCharts_Tests.debug.xcconfig */,
 				3D19E5FF108DC27CD5D4940D /* Pods-TLCharts_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

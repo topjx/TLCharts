@@ -1,0 +1,6 @@
+framework module TLCharts {
+  umbrella header "TLCharts-umbrella.h"
+
+  export *
+  module * { export * }
+}

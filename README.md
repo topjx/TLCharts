@@ -20,9 +20,12 @@ it, simply add the following line to your Podfile:
 pod 'TLCharts'
 ```
 
-## Author
+## ps
 
-lijunxi, 1178860884@qq.com
+copy from ORCharts
+
+* [ORCharts:Ring](https://www.jianshu.com/p/317a79890984)
+* [ORCharts:Line](https://www.jianshu.com/p/a571ae110ba5)
 
 ## License
 

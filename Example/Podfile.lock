@@ -1,0 +1,16 @@
+PODS:
+  - TLCharts (0.1.0)
+
+DEPENDENCIES:
+  - TLCharts (from `../`)
+
+EXTERNAL SOURCES:
+  TLCharts:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TLCharts: 8bebf831bb004a29970de6026256bde70792b787
+
+PODFILE CHECKSUM: af9c4cb0a231f20717eaedb266dd5e6b721676b3
+
+COCOAPODS: 1.7.2
