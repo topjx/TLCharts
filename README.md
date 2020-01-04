@@ -22,7 +22,7 @@ pod 'TLCharts'
 
 ## ps
 
-copy from ORCharts
+copy from [ORCharts](https://github.com/SunriseOYR/ORCharts)
 
 * [ORCharts:Ring](https://www.jianshu.com/p/317a79890984)
 * [ORCharts:Line](https://www.jianshu.com/p/a571ae110ba5)
