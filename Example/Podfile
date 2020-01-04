@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TLCharts_Example' do
+  pod 'TLCharts', :path => '../'
+
+  target 'TLCharts_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
