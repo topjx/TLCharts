@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TLCharts'
-  s.version          = '1.0.2'
+  s.version          = '1.0.5'
   s.summary          = 'A short description of TLCharts.'
 
 # This description is used to generate tags and improve search results.
@@ -34,18 +34,18 @@ TODO: Add long description of the pod here.
   
   s.subspec 'Util' do |su|
       su.ios.deployment_target = '8.0'
-      su.source_files = 'TLCharts/Classes/TLChartUtilities/**/*.{h,m}'
+      su.source_files = 'TLCharts/Classes/ORChartUtilities/**/*.{h,m}'
   end
   s.subspec 'Ring' do |ss|
       ss.ios.deployment_target = '8.0'
-      ss.source_files = 'TLCharts/Classes/TLRingChart/**/*.{h,m}'
-      # ss.public_header_files = 'TLCharts/Classes/TLRingChart/TLRingChartView.h'
+      ss.source_files = 'TLCharts/Classes/ORRingChart/**/*.{h,m}'
+      # ss.public_header_files = 'TLCharts/Classes/ORRingChart/ORRingChartView.h'
       ss.dependency 'TLCharts/Util'
   end
   s.subspec 'Line' do |sss|
       sss.ios.deployment_target = '8.0'
-      sss.source_files = 'TLCharts/Classes/TLLineChart/**/*.{h,m}'
-      # sss.public_header_files = 'TLCharts/Classes/TLLineChart/TLLineChartView.h'
+      sss.source_files = 'TLCharts/Classes/ORLineChart/**/*.{h,m}'
+      # sss.public_header_files = 'TLCharts/Classes/ORLineChart/ORLineChartView.h'
       sss.dependency 'TLCharts/Util'
   end
   
