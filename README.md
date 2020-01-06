@@ -27,6 +27,11 @@ copy from [ORCharts](https://github.com/SunriseOYR/ORCharts)
 * [ORCharts:Ring](https://www.jianshu.com/p/317a79890984)
 * [ORCharts:Line](https://www.jianshu.com/p/a571ae110ba5)
 
+1.0.5版本
+使用ORCharts2.1.6
+修改：当pieView只有一条数据，并且大于100%时，infoView显示在最顶，改为修改成右上角显示
+
+
 ## License
 
 TLCharts is available under the MIT license. See the LICENSE file for more info.
